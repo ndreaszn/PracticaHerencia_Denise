@@ -23,7 +23,7 @@ public class Mago extends Personaje {
             mana = mana - 10;
             objetivo.recibirDano(getAtaque() + poderMagico);
         } else {
-            System.out.println(getNombre() + " se quedó sin maná y solo da un golpe débil con su bastón.");
+            System.out.println(getNombre() + " se quedó sin maná.");
             objetivo.recibirDano(getAtaque());
         }
     }

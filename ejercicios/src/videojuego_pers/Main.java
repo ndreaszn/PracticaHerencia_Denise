@@ -7,7 +7,7 @@ public class Main {
 
         Mago mago = new Mago("p2", 80, 5, 2, 20, 25);
 
-        System.out.println("=== ¡COMIENZA EL COMBATE BUGISOFT! ===");
+        System.out.println("=== BATTLE ===");
         System.out.println(guerrero.getNombre() + " VS " + mago.getNombre());
         System.out.println("--------------------------------------");
 
